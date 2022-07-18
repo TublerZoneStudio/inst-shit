@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/content
+Content-Type: application/json
+
+{
+    "admin_psw": "cbqmXG8xJzvCXMb"
+}

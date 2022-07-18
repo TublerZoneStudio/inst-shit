@@ -1,0 +1,19 @@
+{
+  "name": "inst-shit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm start --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "start": "npm start --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
